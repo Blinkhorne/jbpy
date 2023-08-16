@@ -1,0 +1,12 @@
+import random
+otpgenerator=random.randint(000000,1000000)
+username=input("username:")
+print('hello..!',username)
+print('here is your otp for login',otpgenerator)
+password=input("Enter the otp to login:")
+if password==str(otpgenerator):
+    print('Login success')
+else:
+    password!=str(otpgeneraotr)
+    print("Login failed")
+
